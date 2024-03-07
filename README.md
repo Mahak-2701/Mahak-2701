@@ -1,12 +1,12 @@
 # Welcome to My Github Profile.
 
 - 👋 Hi, I’m Mahak Saini
-- 👀 I’m interested in JavaScript
+- 👀 I’m interested in JavaScript & Express
 - 🌱 I’m currently learning new things.
-- 📫 I love Exploring codes!
+- 📫 I love exploring source codes !
 - 🧑‍💻 Enjoying the life.
 
-## Languages and Tools
+## Languages and Tools ~
 
 <div align="left">
     <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank" rel="noreferrer">
@@ -23,5 +23,6 @@
         <img src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="80" height="80" /> </a> 
 </div>
 
+***
 <!--
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Mahak-2701&theme=shades-of-purple&hide_border=false&include_all_commits=true&count_private=true&layout=compact) -->
