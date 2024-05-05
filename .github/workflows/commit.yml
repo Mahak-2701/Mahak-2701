@@ -4,7 +4,7 @@ name: Commit Raw Changes
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 0,12 * * *'  # Runs daily at 12:10 AM IST
+    - cron: '10 0,12,23 * * *'  # Runs daily at 12:10 AM IST
 
 jobs:
   processing_begin:
