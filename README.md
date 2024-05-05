@@ -1,7 +1,12 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/username-dark.svg">
-  <img height="100" alt="" src="./assets/username-light.svg">
-</picture>
+<div align="center">
+   <a href="https://github.com/Mahak-2701">
+      <picture>
+           <source media="(prefers-color-scheme: dark)" srcset="./assets/username-dark.svg" height="350" width="1000" />
+           <source media="(prefers-color-scheme: light)" srcset="./assets/username-light.svg" height="350" width=""1000 />
+           <img alt="this is art" src="./assets/default.svg" height="300" width="1000" />
+     </picture>
+   </a>
+</div>
 
 ## Welcome to My Github Profile 🧑‍💻
 
