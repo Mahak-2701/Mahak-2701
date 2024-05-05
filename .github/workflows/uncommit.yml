@@ -4,7 +4,7 @@ name: Uncommit Raw Changes
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 0,12 * * *'  # Runs daily at 12:15 AM IST
+    - cron: '15 0,12,23 * * *'  # Runs daily at 12:15 AM IST
 
 jobs:
   processing_end:
