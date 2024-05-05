@@ -32,9 +32,10 @@
         <img src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/javascript/javascript-original.svg" alt="javascript" width="50" height="50" /> </a> 
     <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> 
         <img src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="50" height="50" /> </a> 
+      <a href="https://expressjs.com/" target="_blank" rel="noreferrer"> 
+        <img src="https://cdn.jsdelivr.net/gh/offensive-vk/Icons@master/express/express-original-wordmark.svg" alt="express" width="50" height="50" /> </a> 
 </div>
 
-***
 <div align="center">
 <a href="https://github.com/Mahak-2701">
 
