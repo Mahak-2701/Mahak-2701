@@ -10,16 +10,26 @@
 
 ## Welcome to My Github Profile 🧑‍💻
 
-<img
-    align="right"
+<div align="center">
+   <img
+    align="left"
     src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mahak-2701&theme=shades-of-purple&hide_border=true&include_all_commits=true&count_private=true&layout=compact" 
     alt="stats" 
     width="400" 
-    height="200" 
+    height="300" 
 />
+<br>
+<img
+    align=""
+    src="https://streak-stats.demolab.com?user=Mahak-2701&theme=tokyonight&hide_border=true&background=45%2C492342%2C2F6F69" 
+    alt="stats" 
+    width="400" 
+    height="300" 
+/>
+</div>
 
-- 👋 Hi, I’m Mahak Saini
-- 👀 I’m interested in JavaScript & Express
+- 👋 Hello, I’m Mahak Saini
+- 👀 I’m interested in JavaScript & Express.
 - 🌱 I’m currently learning new things.
 - 📫 I love exploring source codes !
 - 🧑‍💻 Enjoying the life.
