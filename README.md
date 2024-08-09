@@ -13,7 +13,7 @@
 
 <div align="center">
    <img
-    align="left"
+    align=""
     src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mahak-2701&theme=shades-of-purple&hide_border=true&include_all_commits=true&count_private=true&layout=compact" 
     alt="stats" 
     width="300" 
