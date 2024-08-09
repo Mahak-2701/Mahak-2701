@@ -1,3 +1,4 @@
+<!--
 <div align="center">
    <a href="https://github.com/Mahak-2701">
       <picture>
@@ -7,7 +8,7 @@
      </picture>
    </a>
 </div>
-
+-->
 ## Welcome to My Github Profile 🧑‍💻
 
 <div align="center">
