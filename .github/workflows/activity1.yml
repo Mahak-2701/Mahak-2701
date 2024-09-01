@@ -17,7 +17,7 @@ jobs:
         with:
           global: true
           bot: mahak-actions
-          name: "Mahak's Bot"
+          name: "Mahak-2701"
 
       - name: Check for Changes
         run: echo "Hello Github!" > activity.txt
@@ -36,7 +36,7 @@ jobs:
           git config --global user.email "Mahak-2701@users.noreply.github.com"
           git fetch && git pull
           git add .
-          git commit -m ":rabbit2: Updated Content #1.
+          git commit -m ":rabbit2: Updated Content on #today=$(date +%d-%b)
 
           Co-Authored-by: mahak-actions[bot] <41898282+mahak-actions[bot]@users.noreply.github.com>"
           git push
