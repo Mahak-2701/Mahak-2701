@@ -1,0 +1,46 @@
+name: Commit with Checks 
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 */4 * * *'
+
+jobs:
+  processing_begin:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set Github Actions
+        uses: gotmax23/set-bot-git-user-action@main
+        with:
+          global: true
+          bot: github-actions
+          name: "Mahak's Bot"
+
+      - name: Check for Changes
+        run: rm -rf activity.txt
+      
+      - name: Run checks
+        run: |
+          sudo apt update; sudo apt upgrade -y
+          uname -a
+
+      - name: Check for uncommitted changes (optional)
+        run: git status --porcelain
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          branch: main
+          commit_message: ${{ format('Refreshed & Removed Stuff (%s)', github.sha) }}
+          commit_user_name: ${{ github.actor }}
+          commit_user_email: ${{ github.actor }}@users.noreply.github.com  
+          commit_options: '-a'
+        env:
+          GITHUB_TOKEN: ${{ secrets.MY_GH_TOKEN }}
+
+      - name: Inform about skipped commit (optional)
+        run: |
+          echo "No changes detected to commit. Skipping commit."
