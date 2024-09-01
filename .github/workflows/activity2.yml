@@ -16,7 +16,7 @@ jobs:
         uses: gotmax23/set-bot-git-user-action@main
         with:
           global: true
-          bot: github-actions
+          bot: mahak-actions
           name: "Mahak's Bot"
 
       - name: Check for Changes
@@ -30,14 +30,16 @@ jobs:
       - name: Check for uncommitted changes (optional)
         run: git status --porcelain
 
-      - name: Commit and push changes
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          branch: main
-          commit_message: ${{ format('Refreshed & Removed Stuff (%s)', github.sha) }}
-          commit_user_name: ${{ github.actor }}
-          commit_user_email: ${{ github.actor }}@users.noreply.github.com  
-          commit_options: '-a'
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "Mahak-2701"
+          git config --global user.email "Mahak-2701@users.noreply.github.com"
+          git fetch && git pull
+          git add .
+          git commit -m ":rabbit2: Updated Content #2.
+
+          Co-Authored-by: mahak-actions[bot] <41898282+mahak-actions[bot]@users.noreply.github.com>"
+          git push
         env:
           GITHUB_TOKEN: ${{ secrets.MY_GH_TOKEN }}
 
