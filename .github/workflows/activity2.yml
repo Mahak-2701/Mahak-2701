@@ -22,12 +22,7 @@ jobs:
       - name: Check for Changes
         run: rm -rf activity.txt
       
-      - name: Run checks
-        run: |
-          sudo apt update; sudo apt upgrade -y
-          uname -a
-
-      - name: Check for uncommitted changes (optional)
+      - name: Check for uncommitted changes
         run: git status --porcelain
 
       - name: Commit and Push Changes
@@ -36,13 +31,20 @@ jobs:
           git config --global user.email "Mahak-2701@users.noreply.github.com"
           git fetch && git pull
           git add .
-          git commit -m ":rabbit2: Updated Content on #today=$(date +%d-%b).
+          git commit -m ":rabbit2: Updated Content on $(date +%d-%b).
 
-          Co-Authored-by: mahak-actions[bot] <41898282+mahak-actions[bot]@users.noreply.github.com>"
+          Co-Authored-by: mahak-actions[bot] <$USER_ID+mahak-actions[bot]@users.noreply.github.com>"
           git push
         env:
+          USER_ID: ${{ github.actor_id }}
           GITHUB_TOKEN: ${{ secrets.MY_GH_TOKEN }}
 
+      - name: Run checks
+        run: |
+          sudo apt update; sudo apt upgrade -y
+          uname -a
+
       - name: Inform about skipped commit (optional)
+        if: ${{ failure() }}
         run: |
           echo "No changes detected to commit. Skipping commit."
