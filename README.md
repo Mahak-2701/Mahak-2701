@@ -8,8 +8,6 @@
      </picture>
    </a>
 </div>
--->
-## Welcome to My Github Profile 🧑‍💻
 
 <div align="center">
    <img
@@ -27,14 +25,15 @@
     height="300" 
 />
 </div>
+-->
 
-👋 Hello, I’m Mahak Saini
+## Welcome to My Github Profile 🧑‍💻
 
-👀 I’m interested in JavaScript.
-
-🌱 I’m currently learning new things.
-
-🧑‍💻 Building my future.
+- 👋 Hello, I’m Mahak Saini
+- 👀 I’m interested in JavaScript.
+- 🌱 I’m currently learning new things.
+- ✌️ I like tech industry.
+- 🧑‍💻 Building my future.
 
 ### Languages and Tools:
 
