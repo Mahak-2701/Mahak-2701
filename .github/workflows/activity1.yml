@@ -21,12 +21,7 @@ jobs:
 
       - name: Check for Changes
         run: echo "Hello Github!" > activity.txt
-      
-      - name: Run checks
-        run: |
-          sudo apt update; sudo apt upgrade -y
-          uname -a
-
+    
       - name: Check for uncommitted changes (optional)
         run: git status --porcelain
 
@@ -39,13 +34,13 @@ jobs:
           git add .
           git commit -m ":rabbit2: Updated Content on $(date +%d-%b)
 
-          Co-Authored-by: mahak-actions[bot] <$USER_ID+mahak-actions[bot]@users.noreply.github.com>"
+          Co-Authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
           git push
         env:
           USER_ID: ${{ github.actor_id }}
           GITHUB_TOKEN: ${{ secrets.MY_GH_TOKEN }}
 
-      - name: Inform about skipped commit (optional)
-        if: ${{ failure() }}
+      - name: Run checks
         run: |
-          echo "No changes detected to commit. Skipping commit."
+          sudo apt update; sudo apt upgrade -y
+          uname -a

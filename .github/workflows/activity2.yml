@@ -34,7 +34,7 @@ jobs:
           git add .
           git commit -m ":rabbit2: Updated Content on $(date +%d-%b).
 
-          Co-Authored-by: mahak-actions[bot] <$USER_ID+mahak-actions[bot]@users.noreply.github.com>"
+          Co-Authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
           git push
         env:
           USER_ID: ${{ github.actor_id }}
@@ -44,8 +44,3 @@ jobs:
         run: |
           sudo apt update; sudo apt upgrade -y
           uname -a
-
-      - name: Inform about skipped commit (optional)
-        if: ${{ failure() }}
-        run: |
-          echo "No changes detected to commit. Skipping commit."
