@@ -1,4 +1,4 @@
-name: Commit with Checks 
+name: Commit with Checks 1st
 
 on:
   workflow_dispatch:
