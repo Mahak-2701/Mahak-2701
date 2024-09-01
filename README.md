@@ -13,15 +13,14 @@
 
 <div align="center">
    <img
-    align=""
+    align="left"
     src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mahak-2701&theme=shades-of-purple&hide_border=true&include_all_commits=true&count_private=true&layout=compact" 
     alt="stats" 
     width="300" 
     height="250" 
 />
-
 <img
-    align=""
+    align="right"
     src="https://streak-stats.demolab.com?user=Mahak-2701&theme=tokyonight&hide_border=true&background=45%2C492342%2C2F6F69" 
     alt="stats" 
     width="400" 
@@ -29,11 +28,13 @@
 />
 </div>
 
-- 👋 Hello, I’m Mahak Saini
-- 👀 I’m interested in JavaScript & Express.
-- 🌱 I’m currently learning new things.
-- 📫 I love exploring source codes !
-- 🧑‍💻 Enjoying the life.
+👋 Hello, I’m Mahak Saini
+
+👀 I’m interested in JavaScript.
+
+🌱 I’m currently learning new things.
+
+🧑‍💻 Building my future.
 
 ### Languages and Tools:
 
@@ -54,7 +55,6 @@
 
 <div align="center">
 <a href="https://github.com/Mahak-2701">
-
    <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://ssr-contributions-svg.vercel.app/_/Mahak-2701?chart=3dbar&gap=0.6&scale=2&flatten=2&animation=wave&animation_duration=5&animation_delay=0.06&animation_amplitude=24&animation_frequency=0.1&animation_wave_center=0_3&format=svg&weeks=34&theme=native&dark=true">
     <source media="(prefers-color-scheme: light)" srcset="https://ssr-contributions-svg.vercel.app/_/Mahak-2701?chart=3dbar&gap=0.6&scale=2&flatten=2&animation=wave&animation_duration=5&animation_delay=0.06&animation_amplitude=24&animation_frequency=0.1&animation_wave_center=0_3&format=svg&weeks=34&theme=native">
