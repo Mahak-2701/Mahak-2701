@@ -20,19 +20,12 @@ jobs:
 
       - name: Commit and Push Changes
         run: |
-          git config --global user.name "Mahak-2701"
-          git config --global user.email "Mahak-2701@users.noreply.github.com"
+          git config --global user.name "${{ github.repository_owner }}"
+          git config --global user.email "${{ github.repository_owner }}@users.noreply.github.com"
           git fetch && git pull
           git add .
-          git commit -m ":rabbit2: Updated Content on $(date +%d-%b)
-
-          Co-Authored-by: github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
+          git commit -m ":rabbit2: Updated Content on $(date +%d-%b)"
           git push
         env:
           USER_ID: ${{ github.actor_id }}
           GITHUB_TOKEN: ${{ secrets.MY_GH_TOKEN }}
-
-      - name: Run checks
-        run: |
-          sudo apt update; sudo apt upgrade -y
-          uname -a
